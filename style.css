@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #1E2227;
+    overflow: hidden;
+    height: 100vh;
+}
+header {
+    display: flex;
+    height: 125px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.h-icon a{
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+section{
+    
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 150px;
+    
+}
+section .main{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-right: 30px;
+
+    
+}
+.main h1{
+    font-size: 80px;
+    margin-bottom: 25px;
+    cursor: default;
+}
+.main p{
+    margin-bottom: 10px;
+    cursor: default;
+}
+.main h2{
+    cursor: default;
+}
+.main h2 span{
+    margin-left: 5px;
+    font-size: small;
+    text-decoration: line-through;
+    letter-spacing: 1px;
+    cursor: default;
+}
+section .main1{
+    background: red;
+    height: 75vh;
+    width: 50%;
+}
+.main .btn{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 40px;
+
+}
+.main .btn a{
+    background: red;
+    padding: 18px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    
+}
+.main .btn a:hover{
+    background: rgb(231, 123, 123);
+    transform: translateY(-15px);
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.main1 h1{
+    
+    text-align: center;
+    font-size: 100px;
+    color: rgba(255,255,255, 0.3);
+    cursor: default;
+    position: absolute;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    font-size: 130px;
+
+}
+.main1 .foto-1{
+    width: 100%;
+    text-align: center;
+}
+.main1 .foto-1 img{
+    width: 80%;
+    transform: rotate(-20deg);
+    transition: transform 0.5s;
+
+}
+.main1 .foto-1 img:hover {
+    transform: translate(-20px, 10px) rotate(0deg);
+  }
+.main1 .ufak-foto{
+    display: flex;
+    width: 80%;
+    margin: 70px auto 0;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.ufak-foto .ufak-nike img{
+    width: 120px;
+    transform: rotate(-20deg);
+    transition: transform 0.5s;
+
+}
+.ufak-foto .ufak-nike img:hover{
+    transform: translate(-20px, 10px) rotate(0deg);
+}
+.ufak-nike:nth-child(1){
+    
+        background: #b9c8ff;
+      
+}
+.ufak-nike:nth-child(2){
+    
+    background: #b1ffdd;
+  
+}
+.ufak-nike:nth-child(3){
+    
+    background: #eb5e5e;
+  
+}
+.ufak-nike:nth-child(4){
+    
+    background: #9dff90;
+  
+}
